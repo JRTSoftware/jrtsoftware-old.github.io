@@ -1,0 +1,26 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body
+  padding-top: $spacer * 2;
+  min-width: 320px;
+  
+.icon
+  height: $spacer;
+  fill: currentColor;
+
+
+.x-small 
+  font-size: 66%; 
+
+.small 
+  font-size: 80%; 
+
+.normal 
+  font-size: 100%; 
+
+.display-3
+  font-size: 3rem; 
+
+@include media-breakpoint-up(sm) 
+    .display-3
+        font-size: 4.5rem; 
+    

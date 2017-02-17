@@ -1,0 +1,19 @@
+
+// 9. Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-sizes: (
+    xs: .75rem,
+    sm: .875rem,
+    base: 1rem,
+    lg: 1.25rem,
+    xl: 1.5rem
+);
+@include _assert-ascending($font-sizes, "$font-sizes");
+
+$font-size-base: map-get($font-sizes, base) !default;
+$font-size-lg:   map-get($font-sizes, lg) !default;
+$font-size-sm:   map-get($font-sizes, sm) !default;
+$font-size-xs:   map-get($font-sizes, xs) !default;
+$font-size-xl:   map-get($font-sizes, xl) !default;

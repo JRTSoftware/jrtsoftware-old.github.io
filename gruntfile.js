@@ -91,12 +91,12 @@ module.exports = function (grunt) {
                 files: {
                     '<%= dist.path %>/css/styles.css': ['<%= src.path %>/sass/styles.sass', '<%= src.path %>/css/jumbotron.css']
                 }
-            },
-            distvendor: {
-                files: {
-                    '<%= distvendor.path %>/css/bootstrap.min.css': 'node_modules/bootstrap/dist/css/bootstrap.min.css'
-                }
-            }
+            }//,
+            // distvendor: {
+            //     files: {
+            //         '<%= distvendor.path %>/css/bootstrap.min.css': 'node_modules/bootstrap/dist/css/bootstrap.min.css'
+            //     }
+            // }
         },
 
         // use always with target e.g. `csslint:doc` or `csslint:dev`
