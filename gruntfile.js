@@ -174,8 +174,6 @@ module.exports = function (grunt) {
 
         copy: {
             'font-awesome-svg-png-svg': {
-
-               
                 src: '<%= src.lib %><%= src.theme %>/svg/*.svg',
                 dest: '<%= temp.path %>/svg/',
                 expand: true,
