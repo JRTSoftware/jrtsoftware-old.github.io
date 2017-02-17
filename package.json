@@ -1,0 +1,28 @@
+{
+  "name": "JRTSOFTWARE",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-newer": "^1.2.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-spritesmith": "^6.4.0",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-svgstore": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "magnific-popup": "^1.1.0",
+    "time-grunt": "^1.4.0",
+    "font-awesome": "^4.7.0"
+  },
+  "author": {
+    "name": "JRT Software",
+    "email": "jason@jrtsoftware.co.uk"
+  }
+}

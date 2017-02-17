@@ -1,0 +1,5 @@
+node_modules
+assets/dist/
+bower_components
+lib/Font-Awesome-SVG-PNG
+assets/temp

@@ -1,0 +1,26 @@
+{
+  "name": "JRTSOFTWARE",
+  "description": "JRT Software Website",
+  "main": "",
+  "authors": [
+    "JRT Software"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/JRTSoftware/jrtsoftware.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Font-Awesome-SVG-PNG": "font-awesome-svg-png#^1.1.5"
+  },
+  "exportsOverride": {
+    "font-awesome-svg-png": {
+      "svg": "black/svg",
+      "png": "black/png/128/"
+    }
+  }
+}
