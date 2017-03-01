@@ -8,7 +8,7 @@
   <meta name="author" content="Jason Trotter">
   <!--<link rel="icon" href="favicon.ico">-->
   <title>JRT Software - Software Consultancy &amp; Development</title>
-  <link href="assets/dist/css/styles.min.css" rel="stylesheet">
+  <!--<link async href="assets/dist/css/styles.min.css" rel="stylesheet">-->
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#development">Development <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#development">Development</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#process">Business Process Improvement </a>
@@ -97,6 +97,24 @@
     ga('send', 'pageview');
 
   </script>
+
+  
+    <noscript id="deferred-styles">
+      <link rel="stylesheet" type="text/css" href="assets/dist/css/styles.min.css"/>
+    </noscript>
+    <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
 
 <!-- Bootstrap core JavaScript
     ================================================== -->
