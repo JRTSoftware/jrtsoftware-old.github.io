@@ -132,7 +132,8 @@ module.exports = function (grunt) {
             distvendor: {
                 files: {
                     '<%= distvendor.path %>/js/bootstrap.min.js': 'node_modules/bootstrap/dist/js/bootstrap.js',
-                    '<%= distvendor.path %>/js/jquery.min.js': 'node_modules/jquery/dist/jquery.min.js'
+                    '<%= distvendor.path %>/js/jquery.min.js': 'node_modules/jquery/dist/jquery.min.js',
+                    '<%= distvendor.path %>/js/tether.min.js': 'node_modules/tether/dist/js/tether.min.js'
                 }
             },
             dist: {
