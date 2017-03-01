@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: *.json
+Disallow: *.md
+Disallow: /gruntfile.js
