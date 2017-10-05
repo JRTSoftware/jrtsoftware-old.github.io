@@ -8203,6 +8203,10 @@ img.mfp-img {
     padding-left: 6px;
     padding-right: 6px; } }
 
+/* line 1, assets/src/sass/_overrides.sass */
+body {
+  padding-top: 3rem; }
+
 /* line 5, assets/src/sass/_text.scss */
 .text-size-xs-xs {
   font-size: 0.75rem !important; }
@@ -8326,7 +8330,7 @@ img.mfp-img {
 /* Move down content because we have a fixed navbar that is 50px tall */
 /* line 2, assets/src/sass/_jumbotron.sass */
 body {
-  padding-top: 2rem;
+  padding-top: 3rem;
   min-width: 320px; }
 
 /* line 6, assets/src/sass/_jumbotron.sass */
