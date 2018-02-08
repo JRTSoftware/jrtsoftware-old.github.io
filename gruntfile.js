@@ -72,14 +72,14 @@ module.exports = function (grunt) {
         },
 
         // Sprite generation
-        sprite: {
-            all: {
-                src: 'assets/src/images/sprite/*.png',
-                dest: 'assets/src/images/sprite.png',
-                destCss: 'assets/src/sass/_jrt-sprite.sass',
-                cssTemplate: 'assets/src/sass/jrt-sprite.mustache'
-            }
-        },
+        // sprite: {
+        //     all: {
+        //         src: 'assets/src/images/sprite/*.png',
+        //         dest: 'assets/src/images/sprite.png',
+        //         destCss: 'assets/src/sass/_jrt-sprite.sass',
+        //         cssTemplate: 'assets/src/sass/jrt-sprite.mustache'
+        //     }
+        // },
 
         sass: {
             options: {
@@ -158,7 +158,7 @@ module.exports = function (grunt) {
                         expand: true,
                         cwd: 'assets/src/images',
                         src: ['**/*.{png,jpg,gif,jpeg}'],
-                        dest: 'assets/dist/images'
+                        dest: 'assets/dist/img'
                     }
                 ]
             }
@@ -217,7 +217,7 @@ module.exports = function (grunt) {
             },
             images: {
                 files: ['<%= src.path %>/**/*.{png,jpg,gif,jpeg}'],
-                tasks: ['clean:images', 'sprite', 'imagemin']
+                tasks: ['clean:images', 'imagemin']
             },
             js: {
                 files: ['<%= src.path %>/**/*.js'],
@@ -244,7 +244,6 @@ module.exports = function (grunt) {
 
     // Runs once
     grunt.registerTask('build', [
-        'newer:sprite',
         'sass',
         'cssmin',
         'uglify',

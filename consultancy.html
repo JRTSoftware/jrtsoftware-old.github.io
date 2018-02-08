@@ -12,11 +12,11 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
       aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <a class="navbar-brand" href="/">JRT Software</a>
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
@@ -37,31 +37,78 @@
     </div>
   </nav>
   <ol class="breadcrumb">
-      <li class="breadcrumb-item">
-        <a href="/">Home</a>
-      </li>
-      <li class="breadcrumb-item active">
-        <a href="/consultancy">Consultancy</a>
-      </li>
-    </ol>
+    <li class="breadcrumb-item">
+      <a href="/">Home</a>
+    </li>
+    <li class="breadcrumb-item active">
+      <a href="/consultancy">Consultancy</a>
+    </li>
+  </ol>
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
+  <div class="jumbotron jumbotron-fluid jumbotron-billboard">
+    <div class="img"></div>
     <div class="container">
       <h1 class="display-3">Helping your business make the right decisions at the right time.
       </h1>
-      <p>Our experience over the years with many different companies, vendors and our passion for what we do makes us great consultants to have on your side when you are looking to purchase software or pick a vendor. Engaging JRT Software as a consultant for your business means you will get someone Technical to help you to make informed decisions on the vendors you work with, we also bring with us our own vendor experiences which may help you to shortlist possible vendors. </p>
-      <p>
-        We are able to provide a range of different consultancy services including software market research to identify your best options, attending vendor pitch meetings to try and get the technical information out of the vendor you need to know to make sure they are perfect for your business or as a advocate for your company through the development stages of a project.
+      <p>Our experience over the years with many different companies, vendors and our passion for what we do makes us great
+        consultants to have on your side when you are looking to purchase software or pick a vendor. Engaging JRT Software
+        as a consultant for your business means you will get someone Technical to help you to make informed decisions on
+        the vendors you work with, we also bring with us our own vendor experiences which may help you to shortlist possible
+        vendors. </p>
+      <p class="d-none d-md-block">
+        We are able to provide a range of different consultancy services including software market research to identify your best
+        options, attending vendor pitch meetings to try and get the technical information out of the vendor you need to know
+        to make sure they are perfect for your business or as a advocate for your company through the development stages
+        of a project.
       </p>
     </div>
   </div>
-    <hr>
+  <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="assets/dist/img/man-people-space-desk-small.jpg" alt="Video Call">
+        <div class="card-body">
+          <h5 class="card-title">Remote Consultancy</h5>
+          <p class="card-text">We can join you from our offices over video or phone to contribute to pitch meetings or to discuss our findings.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">From: £800 p/d</small>
+        </div>
+      </div>
+    <div class="card">
+      <img class="card-img-top" src="assets/dist/img/people-coffee-tea-meeting-small.jpg" alt="On site">
+      <div class="card-body">
+        <h5 class="card-title">Onsite Consultancy</h5>
+        <p class="card-text">Want to meet us in person, we can come to your office and get really involved with your team.</p>
 
-    <footer>
-      <p>&copy; JRT Software 2017</p>
-      <p>Email Us: <a href="mailto:hello@jrtsoftware.co.uk">hello@jrtsoftware.co.uk</a></p>
-    </footer>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">From: £1000 p/d</small>
+      </div>
+
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="assets/dist/img/pexels-photo-530024-small.jpeg" alt="Written Report">
+      <div class="card-body">
+        <h5 class="card-title">Written report</h5>
+        <p class="card-text">If you just want our opinion in written form we can provide this also, you will receive a comprehensive report of
+          our findings and if suitable recommendations.</p>
+
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">From: £800 p/d</small>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <footer>
+    <p>&copy; JRT Software 2017</p>
+    <p>Email Us:
+      <a href="mailto:hello@jrtsoftware.co.uk">hello@jrtsoftware.co.uk</a>
+    </p>
+  </footer>
   </div>
   <!-- /container -->
 
@@ -77,39 +124,42 @@
     ga('send', 'pageview');
 
   </script>
-  
-    <noscript id="deferred-styles">
-      <link rel="stylesheet" type="text/css" href="assets/dist/css/styles.min.css"/>
-    </noscript>
-    <script>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-    </script>
+
+  <noscript id="deferred-styles">
+    <link rel="stylesheet" type="text/css" href="assets/dist/css/styles.min.css" />
+  </noscript>
+  <script>
+    var loadDeferredStyles = function () {
+      var addStylesNode = document.getElementById("deferred-styles");
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.body.appendChild(replacement)
+      addStylesNode.parentElement.removeChild(addStylesNode);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(function () { window.setTimeout(loadDeferredStyles, 0); });
+    else window.addEventListener('load', loadDeferredStyles);
+  </script>
 
 
-<!-- Bootstrap core JavaScript
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="assets/dist/vendor/js/jquery.min.js"><\/script>')</script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="assets/dist/vendor/js/jquery.min.js"><\/script>')</script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script>typeof window.Tether !== "undefined"|| document.write('<script src="assets/dist/vendor/js/tether.min.js"><\/script>')</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script>typeof window.Tether !== "undefined" || document.write('<script src="assets/dist/vendor/js/tether.min.js"><\/script>')</script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script>typeof $().modal !== "undefined"|| document.write('<script src="assets/dist/vendor/js/bootstrap.min.js"><\/script>')</script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+  <script>typeof $().modal !== "undefined" || document.write('<script src="assets/dist/vendor/js/bootstrap.min.js"><\/script>')</script>
 
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="assets/dist/js/ie10-viewport-bug-workaround.js" async></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="assets/dist/js/ie10-viewport-bug-workaround.js" async></script>
 </body>
 
 <!-- <script type="application/ld+json">
@@ -119,8 +169,8 @@
   "@type":"ProfessionalService",
   "image": "https://www.jrtsoftware.co.uk/logo.jpg",
   "name":"JRT Software",
-  "description": "JRT Software use our years of experience to help you deliver, assisting with the entire process from conceptualisation throught to delivery and support.",
-  "url": "https://www.jrtsoftware.co.uk/",
+  "description": "We can help you to pick the right software for your business and ensure it is working for you.",
+  "url": "https://www.jrtsoftware.co.uk/consultancy.html",
   "telephone":"+442380970578",
  "openingHours": "Mo-Fr 08:00-17:00",
   "priceRange": "$$",
@@ -156,5 +206,10 @@
       }
 }
 </script> -->
+<style>
+  .jumbotron-billboard .img {
+    background-image: url("assets/dist/img/pexels-photo-530024.jpeg") !important;
+  }
+</style>
 
 </html>

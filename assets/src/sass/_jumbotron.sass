@@ -1,6 +1,5 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body
-  padding-top: $spacer * 3;
   min-width: 320px;
   
 .icon
@@ -24,3 +23,29 @@ body
     .display-3
         font-size: 4.5rem; 
     
+.jumbotron
+    position: relative;
+
+    .container
+        z-index: 2;
+        padding: 30px;
+        background-color: $gray-200;
+
+        &.dark
+            background-color: $gray-700;
+            color: $gray-200;
+
+.jumbotron-billboard
+    .img
+        margin-bottom: 0px;
+        opacity: 0.4;
+        color: $gray-700;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        position: absolute;
+        background: #000 url("../img/pexels-photo-92905.jpeg") top no-repeat;
+        background-size: cover;
