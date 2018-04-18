@@ -1,76 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ⚡ lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <meta name="description" content="JRT Software who are based in Southampton on the South Coast can use our years of experience to help you deliver, assisting with the entire process from conceptualisation through to delivery and support.">
   <meta name="author" content="Jason Trotter">
   <link rel="canonical" href="/index.html">
-  <link rel="amphtml" href="/amp/index.html">
   <!--<link rel="icon" href="favicon.ico">-->
   <title>JRT Software - Software Consultancy &amp; Development</title>
-  <link async href="assets/dist/css/styles.min.css" rel="stylesheet">
-
-  <!-- <noscript id="deferred-styles">
-      <link rel="stylesheet" type="text/css" href="assets/dist/css/styles.min.css" />
-    </noscript>
-    <script>
-      var loadDeferredStyles = function () {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-        webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(function () { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-    </script> -->
+  <style amp-custom>
+      .brand-thick { font-weight: 600; }
+      .home-button {
+  margin-top: 8px;
+}
+.headerbar {
+  height: 32px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+.site-name {
+  flex: 1;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+article {
+  margin-top: 50px;
+}
+      .hamburger {
+        padding-left: 10px;
+        }      
+        .sidebar {
+        padding: 10px;
+        margin: 0;
+        }
+        .sidebar > li {
+        list-style: none;
+        margin-bottom:10px;
+        }
+        .sidebar a {
+        text-decoration: none;
+        }
+        .close-sidebar {
+        font-size: 1.5em;
+        padding-left: 5px;
+        }
+  </style>
+        </amp-analytics>
+        <script async custom-element="amp-analytics"
+        src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+        <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    <a class="navbar-brand" href="/"><span style="font-weight:500;">JRT</span>SOFTWARE</a>
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/development">Development</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/process">Business Process Improvement </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/consultancy">Consultancy </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/umbracooffer">Umbraco Offer </a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0 invisible">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
 
-  <ol class="breadcrumb">
-      <li class="breadcrumb-item">
-        <a href="/">Home</a>
-      </li>
-    </ol>
+        <header class="headerbar">
+                <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger">☰</div>
+                <div class="site-name"><span class="brand-thick">JRT</span>SOFTWARE</div>
+              </header>
+              <amp-sidebar id="sidebar1" layout="nodisplay" side="left">
+                    <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
+                    <ul class="sidebar">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/development">Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/process">Business Process Improvement </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/consultancy">Consultancy </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/umbracooffer">Umbraco Offer </a>
+                        </li>
+                    </ul>
+                  </amp-sidebar>
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron jumbotron-billboard">
       <div class="img"></div>
     <div class="container">
-      <h1 class="display-3"><span style="font-weight:500;">JRT</span>SOFTWARE, helping with all of your development needs
+      <h1 class="display-3"><span class="brand-thick">JRT</span>SOFTWARE, helping with all of your development needs
       </h1>
-      <p><span style="font-weight:500;">JRT</span>SOFTWARE have a wealth and breadth of knowledge that can make a serious impact, we can be bought into a company
+      <p><span class="brand-thick">JRT</span>SOFTWARE have a wealth and breadth of knowledge that can make a serious impact, we can be bought into a company
         and really make a difference. We can help you to analyse your business processes and suggest tools or develop bespoke
         tools that could save you a fortune. Personally we never like to do exactly the same task more than twice.</p>
       <p>
@@ -107,41 +125,27 @@
     <hr>
 
     <footer>
-      <p>&copy; <span style="font-weight:500;">JRT</span>SOFTWARE 2018</p>
+      <p>&copy; <span class="brand-thick">JRT</span>SOFTWARE 2018</p>
       <p>Email Us: <a href="mailto:hello@jrtsoftware.co.uk">hello@jrtsoftware.co.uk</a></p>
     </footer>
   </div>
   <!-- /container -->
-
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-92694396-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-
-<!-- Bootstrap core JavaScript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="assets/dist/vendor/js/jquery.min.js"><\/script>')</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script>typeof window.Tether !== "undefined"|| document.write('<script src="assets/dist/vendor/js/tether.min.js"><\/script>')</script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script>typeof $().modal !== "undefined"|| document.write('<script src="assets/dist/vendor/js/bootstrap.min.js"><\/script>')</script>
-
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="assets/dist/js/ie10-viewport-bug-workaround.js" async></script>
 </body>
 
+<amp-analytics type="googleanalytics">
+        <script type="application/json">
+        {
+          "vars": {
+            "account": "UA-92694396-1"
+          },
+          "triggers": {
+            "trackPageview": {
+              "on": "visible",
+              "request": "pageview"
+            }
+          }
+        }
+        </script>
 <script type="application/ld+json">
 {
   "@id" : "https://www.jrtsoftware.co.uk/",
