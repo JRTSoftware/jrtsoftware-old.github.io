@@ -10,6 +10,7 @@
   <!--<link rel="icon" href="favicon.ico">-->
   <title>JRT Software - Software Consultancy &amp; Development</title>
   <style amp-custom>
+    h1{font-weight: 500;}
       .brand-thick { font-weight: 600; }
       .home-button {
   margin-top: 8px;
@@ -24,6 +25,7 @@
   align-items: center;
   background: white;
 }
+.jumbotron{ padding-top: 10px; }
 .site-name {
   flex: 1;
   margin-left: 6px;
@@ -50,8 +52,63 @@ article {
         font-size: 1.5em;
         padding-left: 5px;
         }
+        .btn{
+          background-color: blue;
+          color: white;
+          padding: 0.5rem;
+          border: 1px solid darkblue;
+          border-radius: 0.2rem;
+          text-decoration: none;
+        }
   </style>
-        </amp-analytics>
+
+
+<script type="application/ld+json">
+  {
+    "@id" : "https://www.jrtsoftware.co.uk/",
+    "@context":"http://schema.org",
+    "@type":"ProfessionalService",
+    "image": "https://www.jrtsoftware.co.uk/logo.jpg",
+    "name":"JRT Software",
+    "description": "JRT Software who are based in Southampton on the South Coast can offer our years of experience to help you deliver, assisting with the entire process from conceptualisation through to delivery and support.",
+    "url": "https://www.jrtsoftware.co.uk/",
+    "telephone":"+442380970578",
+   "openingHours": "Mo-Fr 08:00-17:00",
+    "priceRange": "$$",
+    "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Software Consultancy Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Custom Development",
+                "description": "We have available someone to cover any development need you have either in-house or with one of our approved partners. We would never recommend someone who we wouldn't pay to do work for us. We can help take your project from idea through to release."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Business Process Improvement",
+                "description": "Do you have Full time employees doing monotonous tasks, call us in we will learn about the tasks and help you to automate the tasks so you can give the employee something more interesting and productive to do."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Consultancy",
+                "description": "Do you have a brilliant idea and have no idea where to start we are here to offer our support. We have the skills to help you from, identifying your requirements, perform a feasibility study, creating a Proof Of Concept, review proposals, code reviews, System Architecture assistance e.t.c."           
+              }
+            }
+          ]
+        }
+  }
+  </script>
+
+
         <script async custom-element="amp-analytics"
         src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
         <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
@@ -146,49 +203,5 @@ article {
           }
         }
         </script>
-<script type="application/ld+json">
-{
-  "@id" : "https://www.jrtsoftware.co.uk/",
-  "@context":"http://schema.org",
-  "@type":"ProfessionalService",
-  "image": "https://www.jrtsoftware.co.uk/logo.jpg",
-  "name":"JRT Software",
-  "description": "JRT Software who are based in Southampton on the South Coast can offer our years of experience to help you deliver, assisting with the entire process from conceptualisation through to delivery and support.",
-  "url": "https://www.jrtsoftware.co.uk/",
-  "telephone":"+442380970578",
- "openingHours": "Mo-Fr 08:00-17:00",
-  "priceRange": "$$",
-  "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Software Consultancy Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Custom Development",
-              "description": "We have available someone to cover any development need you have either in-house or with one of our approved partners. We would never recommend someone who we wouldn't pay to do work for us. We can help take your project from idea through to release."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Business Process Improvement",
-              "description": "Do you have Full time employees doing monotonous tasks, call us in we will learn about the tasks and help you to automate the tasks so you can give the employee something more interesting and productive to do."
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Consultancy",
-              "description": "Do you have a brilliant idea and have no idea where to start we are here to offer our support. We have the skills to help you from, identifying your requirements, perform a feasibility study, creating a Proof Of Concept, review proposals, code reviews, System Architecture assistance e.t.c."           
-            }
-          }
-        ]
-      }
-}
-</script>
-
+</amp-analytics>
 </html>
