@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: CNAME
 Disallow: *.json
 Disallow: *.md
+Disallow: node_modules
 Disallow: /gruntfile.js

@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>https://www.jrtsoftware.co.uk/</loc>
-  <lastmod>2018-04-30T22:54:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://www.jrtsoftware.co.uk/development</loc>
-  <lastmod>2018-04-30T22:54:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://www.jrtsoftware.co.uk/process</loc>
-  <lastmod>2018-04-30T22:54:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://www.jrtsoftware.co.uk/consultancy</loc>
-  <lastmod>2018-04-30T22:54:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://www.jrtsoftware.co.uk/umbracooffer</loc>
-  <lastmod>2018-04-30T22:54:00+00:00</lastmod>
-</url>
-<url>
-  <loc>https://www.jrtsoftware.co.uk/amp</loc>
-  <lastmod>2018-04-26T09:19:00+00:00</lastmod>
-</url>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.jrtsoftware.co.uk/amp/</loc>
+    <lastmod>2018-04-26T10:17:44.035Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.jrtsoftware.co.uk/consultancy</loc>
+    <lastmod>2018-04-30T22:37:09.316Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.jrtsoftware.co.uk/development</loc>
+    <lastmod>2018-04-30T22:37:09.094Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.jrtsoftware.co.uk/</loc>
+    <lastmod>2018-04-30T22:37:08.650Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.jrtsoftware.co.uk/process</loc>
+    <lastmod>2018-04-30T22:37:08.868Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.jrtsoftware.co.uk/umbracooffer</loc>
+    <lastmod>2018-04-30T22:37:09.534Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>

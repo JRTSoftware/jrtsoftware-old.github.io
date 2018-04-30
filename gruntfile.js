@@ -71,6 +71,80 @@ module.exports = function (grunt) {
             }
         },
 
+
+        realFavicon: {
+            favicons: {
+                src: '<%= src.path %>/images/JRT-Logo.svg',
+                dest: './',
+                options: {
+                    iconsPath: '',
+                    html: [ "index.html", "process.html", "development.html", "consultancy.html", "umbracooffer.html",  ],
+                    design: {
+                        ios: {
+                            pictureAspect: 'backgroundAndMargin',
+                            backgroundColor: '#ffffff',
+                            margin: '14%',
+                            assets: {
+                                ios6AndPriorIcons: false,
+                                ios7AndLaterIcons: false,
+                                precomposedIcons: false,
+                                declareOnlyDefaultIcon: true
+                            }
+                        },
+                        desktopBrowser: {},
+                        windows: {
+                            pictureAspect: 'noChange',
+                            backgroundColor: '#2d89ef',
+                            onConflict: 'override',
+                            assets: {
+                                windows80Ie10Tile: false,
+                                windows10Ie11EdgeTiles: {
+                                    small: false,
+                                    medium: true,
+                                    big: false,
+                                    rectangle: false
+                                }
+                            }
+                        },
+                        androidChrome: {
+                            pictureAspect: 'noChange',
+                            themeColor: '#ffffff',
+                            manifest: {
+                                display: 'standalone',
+                                orientation: 'notSet',
+                                onConflict: 'override',
+                                declared: true
+                            },
+                            assets: {
+                                legacyIcon: false,
+                                lowResolutionIcons: false
+                            }
+                        },
+                        safariPinnedTab: {
+                            pictureAspect: 'silhouette',
+                            themeColor: '#5bbad5'
+                        }
+                    },
+                    settings: {
+                        scalingAlgorithm: 'Mitchell',
+                        errorOnImageTooSmall: false,
+                        readmeFile: false,
+                        htmlCodeFile: false,
+                        usePathAsIs: false
+                    }
+                }
+            }
+        },
+
+        sitemap: {
+            dist: {
+                pattern: ['**/*.html', '!**/google*.html', '!**/node_modules/**'],
+                siteRoot: './',
+                extension: {
+                    required: false
+                }
+            }
+        }, 
         // Sprite generation
         // sprite: {
         //     all: {
@@ -253,7 +327,8 @@ module.exports = function (grunt) {
         'sass',
         'cssmin',
         'uglify',
-        'newer:imagemin'
+        'newer:imagemin',
+        'sitemap'
     ]);
 
     // default task runs csslint once on startup on documentation's css
@@ -266,7 +341,8 @@ module.exports = function (grunt) {
     grunt.registerTask('prebuild', [
         'bower',
         'newer:copy',
-        'svgstore'//,
+        'svgstore',
+        'realFavicon'//,
         //'clean:temp'
     ]);
 

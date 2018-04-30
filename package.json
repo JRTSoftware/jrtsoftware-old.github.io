@@ -1,6 +1,7 @@
 {
   "name": "jrtsoftware",
   "version": "1.0.0",
+  "homepage": "https://www.jrtsoftware.co.uk/",
   "devDependencies": {
     "bootstrap": "^4.1.0",
     "jquery": "^3.3.1",
@@ -22,7 +23,9 @@
     "load-grunt-tasks": "^3.5.2",
     "magnific-popup": "^1.1.0",
     "time-grunt": "^1.4.0",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "grunt-real-favicon": "^0.2.2",
+    "grunt-sitemap": "^1.2.1"
   },
   "author": {
     "name": "JRT Software",
