@@ -157,7 +157,7 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: 'assets/src/images',
-                        src: ['**/*.{png,jpg,gif,jpeg}'],
+                        src: ['**/*.{png,jpg,gif,jpeg,svg}'],
                         dest: 'assets/dist/img'
                     }
                 ]
@@ -183,6 +183,12 @@ module.exports = function (grunt) {
             'font-awesome-svg-png-png': {
                 src: '<%= src.lib %><%= src.theme %>/png<%= src.size %>/*.png',
                 dest: '<%= temp.path %>/png/',
+                expand: true,
+                flatten: true
+            },
+            'logo-svg': {
+                src: '<%= src.lib %>/svg/*.svg',
+                dest: '<%= dist.path %>/svg/',
                 expand: true,
                 flatten: true
             }
