@@ -78,7 +78,7 @@ module.exports = function (grunt) {
                 dest: './',
                 options: {
                     iconsPath: '',
-                    html: [ "index.html", "process.html", "development.html", "consultancy.html", "umbracooffer.html",  ],
+                    html: [ "index.html", "process.html", "development.html", "consultancy.html", "umbracooffer.html", "amp/index.html", "privacypolicy.html" ],
                     design: {
                         ios: {
                             pictureAspect: 'backgroundAndMargin',
@@ -296,7 +296,7 @@ module.exports = function (grunt) {
                 tasks: ['sass:dist', 'cssmin']
             },
             images: {
-                files: ['<%= src.path %>/**/*.{png,jpg,gif,jpeg}'],
+                files: ['<%= src.path %>/**/*.{png,jpg,gif,jpeg,svg}'],
                 tasks: ['clean:images', 'imagemin']
             },
             js: {
@@ -327,8 +327,9 @@ module.exports = function (grunt) {
         'sass',
         'cssmin',
         'uglify',
+        'realFavicon',
         'newer:imagemin',
-        'sitemap'
+        'sitemap',
     ]);
 
     // default task runs csslint once on startup on documentation's css
@@ -341,8 +342,7 @@ module.exports = function (grunt) {
     grunt.registerTask('prebuild', [
         'bower',
         'newer:copy',
-        'svgstore',
-        'realFavicon'//,
+        'svgstore'//,
         //'clean:temp'
     ]);
 

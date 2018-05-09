@@ -8605,3 +8605,26 @@ body {
   position: absolute;
   background: #000 url("../img/pexels-photo-92905.jpeg") top no-repeat;
   background-size: cover; }
+
+/* line 17, assets/src/sass/styles.sass */
+.wrapper {
+  background-color: #ffddaa; }
+
+/* line 20, assets/src/sass/styles.sass */
+.wrapper:before {
+  left: 0;
+  top: -6.5em; }
+
+/* line 24, assets/src/sass/styles.sass */
+.wrapper:before, .wrapper:after {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  content: '';
+  display: block;
+  height: 6.5em;
+  position: absolute;
+  width: 100%; }
+
+/* line 33, assets/src/sass/styles.sass */
+.wrapper:before {
+  box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141; }

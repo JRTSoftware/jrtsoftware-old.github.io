@@ -13,3 +13,23 @@
 
 //Project sass
 @import "jumbotron"
+
+.wrapper
+    background-color: #ffddaa
+
+.wrapper:before
+    left: 0
+    top: -6.5em
+
+.wrapper:before, .wrapper:after 
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    content: ''
+    display: block
+    height: 6.5em
+    position: absolute
+    width: 100%
+
+.wrapper:before
+    box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141
+
