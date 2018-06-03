@@ -78,7 +78,7 @@ module.exports = function (grunt) {
                 dest: './',
                 options: {
                     iconsPath: '',
-                    html: [ "index.html", "process.html", "development.html", "consultancy.html", "umbracooffer.html", "amp/index.html", "privacypolicy.html" ],
+                    html: [ "index.html", "process.html", "development.html", "consultancy.html", "advocate.html", "umbracooffer.html", "amp/index.html", "privacypolicy.html" ],
                     design: {
                         ios: {
                             pictureAspect: 'backgroundAndMargin',
