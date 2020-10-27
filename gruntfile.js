@@ -324,7 +324,7 @@ module.exports = function (grunt) {
 
     // Runs once
     grunt.registerTask('build', [
-        'sass',
+        'sass:dist',
         'cssmin',
         'uglify',
         'realFavicon',

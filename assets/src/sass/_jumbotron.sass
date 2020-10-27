@@ -21,14 +21,18 @@ body
 
 @include media-breakpoint-up(sm) 
     .display-3
-        font-size: 4.5rem; 
+        font-size: 4.5rem;
+        
+    .jumbotron
+        .container
+            padding: 30px;
     
 .jumbotron
     position: relative;
 
     .container
         z-index: 2;
-        padding: 30px;
+        padding: 15px;
         background-color: $gray-200;
 
         &.dark
@@ -49,3 +53,13 @@ body
         position: absolute;
         background: #000 url("../img/pexels-photo-92905.jpeg") top no-repeat;
         background-size: cover;
+
+.raffhelper
+  .jumbotron-billboard
+    .img
+      color: #c4eac0;
+  .jumbotron
+    background-color: #c4eac0;
+
+    .container
+      background-color: #c4eac0;
