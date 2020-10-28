@@ -18,7 +18,8 @@ $font-size-sm:   map-get($font-sizes, sm);
 $font-size-xs:   map-get($font-sizes, xs);
 $font-size-xl:   map-get($font-sizes, xl);
 
-$primary:       #1C5380;
-$secondary:     #EFEFEF;
-$tertiary:     #0C2949;
-$link-color:    #20E6E6;
+$theme-colors: (
+                primary: #1C5380,
+                secondary: #0C2949,
+                success: #1e6111
+                );
