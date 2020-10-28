@@ -12,8 +12,13 @@ $font-sizes: (
 );
 @include _assert-ascending($font-sizes, "$font-sizes");
 
-$font-size-base: map-get($font-sizes, base) !default;
-$font-size-lg:   map-get($font-sizes, lg) !default;
-$font-size-sm:   map-get($font-sizes, sm) !default;
-$font-size-xs:   map-get($font-sizes, xs) !default;
-$font-size-xl:   map-get($font-sizes, xl) !default;
+$font-size-base: map-get($font-sizes, base);
+$font-size-lg:   map-get($font-sizes, lg);
+$font-size-sm:   map-get($font-sizes, sm);
+$font-size-xs:   map-get($font-sizes, xs);
+$font-size-xl:   map-get($font-sizes, xl);
+
+$primary:       #1C5380;
+$secondary:     #EFEFEF;
+$tertiary:     #0C2949;
+$link-color:    #20E6E6;
