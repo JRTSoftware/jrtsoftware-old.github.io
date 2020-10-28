@@ -117,7 +117,7 @@
     </div>
     <hr />
     <footer>
-      <p>&copy; <span class="font-weight-bold">JRT</span>SOFTWARE 2018</p>
+      <p>&copy; <span class="font-weight-bold">JRT</span>SOFTWARE <span id="year">2018</span></p>
       <p>
         Email Us:
         <a href="mailto:hello@jrtsoftware.co.uk">hello@jrtsoftware.co.uk</a>
@@ -125,6 +125,9 @@
         <a href="/privacypolicy">Privacy Policy</a>
       </p>
     </footer>
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
     <!-- /container -->
     <script>
       (function (i, s, o, g, r, a, m) {
