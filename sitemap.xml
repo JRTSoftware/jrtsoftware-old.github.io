@@ -2,55 +2,61 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.jrtsoftware.co.uk/advocate</loc>
-    <lastmod>2020-10-27T23:25:57.263Z</lastmod>
+    <lastmod>2020-11-09T10:48:13.119Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.jrtsoftware.co.uk/amp</loc>
-    <lastmod>2020-10-27T23:25:57.327Z</lastmod>
+    <lastmod>2020-11-09T10:48:13.221Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.jrtsoftware.co.uk/Blog/facebook-external-link</loc>
+    <lastmod>2020-11-09T10:48:55.914Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.jrtsoftware.co.uk/consultancy</loc>
-    <lastmod>2020-10-27T23:25:57.218Z</lastmod>
+    <lastmod>2020-11-09T10:48:13.073Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.jrtsoftware.co.uk/development</loc>
-    <lastmod>2020-10-27T23:25:57.168Z</lastmod>
+    <lastmod>2020-11-09T10:48:13.018Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.jrtsoftware.co.uk/</loc>
-    <lastmod>2020-10-27T23:25:57.058Z</lastmod>
+    <lastmod>2020-11-09T10:48:12.885Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.jrtsoftware.co.uk/privacypolicy</loc>
-    <lastmod>2020-10-27T23:25:57.347Z</lastmod>
+    <lastmod>2020-11-09T10:48:13.251Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.jrtsoftware.co.uk/process</loc>
-    <lastmod>2020-10-27T23:25:57.124Z</lastmod>
+    <lastmod>2020-11-09T10:48:12.961Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.jrtsoftware.co.uk/raffhelper</loc>
-    <lastmod>2020-10-27T22:37:21.528Z</lastmod>
+    <lastmod>2020-11-03T00:05:06.136Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.jrtsoftware.co.uk/umbracooffer</loc>
-    <lastmod>2020-10-27T23:25:57.267Z</lastmod>
+    <lastmod>2020-11-09T10:48:13.160Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
